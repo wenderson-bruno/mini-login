@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(to left, rgb(0, 0, 0), rgb(0, 255, 204));
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.container{
+    box-shadow: 2px 2px 8px black;
+    padding: 100px 20px;
+    border-radius: 20px;
+
+}
+input{
+    border: none;
+    background: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+input::placeholder{
+    color: rgba(29, 27, 27, 0.773);
+}
+
+.enter{
+    color: rgb(0, 0, 0);
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.enter:hover{
+    transition: 0.2s;
+    color: white;
+}
+
+#dashboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exit{
+    border: none;
+    border-bottom: 1px solid rgb(85, 70, 70);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.exit:hover{
+    transition: 0.2s;
+    color: rgb(229, 238, 232);
+    background-color: rgba(0, 98, 31, 0.71);
+}
+
+footer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+a{
+    position: absolute;
+    text-decoration: none;
+    margin-top: 60px;
+    color: black;
+}
+a:hover{
+    transition: 0.2s;
+    color: white;
+}
+
+.loginN{
+    display: none;
+}
